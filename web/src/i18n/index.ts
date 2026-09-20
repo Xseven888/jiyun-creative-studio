@@ -13,7 +13,7 @@ i18n.use(initReactI18next).init({
         "zh-CN": { translation: zhCN },
         "en-US": { translation: enUS },
     },
-    lng: (localStorage.getItem(LOCALE_STORAGE_KEY) as AppLocale) || "zh-CN",
+    lng: (localStorage.getItem(LOCALE_STORAGE_KEY) as AppLocale) || "en-US",
     fallbackLng: "zh-CN",
     supportedLngs: ["zh-CN", "en-US"],
     initAsync: false,
